@@ -1,0 +1,29 @@
+.layout {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+}
+
+.layout-header {
+  padding: 15px;
+  background-color: #f8f8f8;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.logo-container {
+  width: 25px;
+}
+
+.logo {
+  max-width: 100%;
+  height: auto;
+  cursor: pointer;
+}
+
+.layout-content {
+  flex-grow: 1;
+  padding: 20px;
+  overflow-y: auto;
+}
