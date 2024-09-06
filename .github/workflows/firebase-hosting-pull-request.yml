@@ -19,3 +19,4 @@ jobs:
           repoToken: ${{ secrets.GITHUB_TOKEN }}
           firebaseServiceAccount: ${{ secrets.FIREBASE_SERVICE_ACCOUNT_JOGAKJIP_REACT }}
           projectId: jogakjip-react
+        working-directory: front # firebase.json이 있는 디렉토리
