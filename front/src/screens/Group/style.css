@@ -1,0 +1,175 @@
+.header-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+}
+
+.logo-container {
+  flex-grow: 1;
+  display: flex;
+  justify-content: center;
+  width: 50px;
+  height: 100px;
+}
+
+.create-button-container {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.create-button {
+  padding: 10px 40px;
+  background-color: #000;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.create-button:hover {
+  background-color: #333;
+}
+
+.search-and-sort {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-top: 30px;
+}
+
+.filter-buttons {
+  display: flex;
+  gap: 10px;
+  cursor: pointer;
+}
+
+.filter-buttons button {
+  padding: 10px 20px;
+  background-color: transparent;
+  color: #000;
+  border: 2px solid #000;
+  border-radius: 20px;
+  cursor: pointer;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+.filter-buttons button.active-filter {
+  background-color: #000;
+  color: #fff;
+}
+
+.filter-buttons button:hover {
+  background-color: #000;
+  color: #fff;
+}
+
+.search-input {
+  flex-grow: 2;
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  font-size: 14px;
+}
+
+.sort-select {
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  font-size: 14px;
+}
+
+.group-list-page {
+  padding: 0px 130px;
+}
+
+.group-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 16px;
+  margin-top: 20px;
+}
+
+.group-item {
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  padding: 16px;
+  width: 260px;
+  text-align: left;
+  background-color: #fff;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  cursor: pointer;
+}
+
+.group-item img {
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+  margin-bottom: 8px;
+}
+
+.group-item-title {
+  color: #282828;
+  font-size: 15px;
+  font-weight: 800;
+  margin-top: 12px;
+  margin-bottom: 8px;
+}
+
+.group-item-introduction-container {
+  max-height: calc(2 * 1em + 7px);
+  overflow: hidden;
+}
+
+.group-item-introduction {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 7px;
+  color: #B8B8B8;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 1.2;
+  white-space: normal;
+}
+
+.group-item h3 {
+  margin: 0;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.group-item p {
+  margin: 4px 0;
+  color: #555;
+  font-size: 14px;
+}
+
+.group-item .group-details {
+  display: flex;
+  font-size: 13px;
+  color: #999;
+  margin-top: 8px;
+  margin-bottom: 4px;
+  gap: 8px;
+}
+
+.group-item .group-stats {
+  display: flex;
+  justify-content: space-between;
+  font-size: 14px;
+  color: #333;
+  margin-top: 12px;
+  border-top: 1px solid #ddd;
+  padding-top: 8px;
+}
+
+.group-item .group-stats div {
+  display: flex;
+  align-items: center;
+}
+
+.group-item .group-stats div img {
+  width: 16px;
+  height: 16px;
+  margin-right: 4px;
+}

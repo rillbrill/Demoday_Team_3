@@ -1,0 +1,133 @@
+.post-detail-container {
+    padding: 15px 130px;
+  }
+
+.post-content-container {
+  padding: 15px 380px;
+}
+
+.post-content-container img {
+  width: 100%; /* 컨테이너 너비에 맞추기 */
+  height: auto; /* 이미지 비율 유지하면서 높이 자동 조정 */
+  object-fit: cover; /* 이미지가 컨테이너에 맞게 크롭되고 비율 유지 */
+  display: block; /* 불필요한 공백을 제거 */
+  border-radius: 6px;
+}
+
+.post-content-container span {
+  display: block;
+  margin-top: 60px;
+}
+
+.post-meta-actions {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 5px;
+}
+
+.post-meta {
+  display: flex;
+  font-size: 14px;
+  color: #555;
+}
+
+.post-meta span {
+  margin-right: 5px;
+}
+
+.post-actions {
+  display: flex;
+  gap: 10px;
+}
+
+.edit-post-button,
+.delete-post-button {
+  padding: 5px 10px;
+  background-color: #ffffff;
+  color: rgb(0, 0, 0);
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.post-title {
+  margin: 12px 0px;
+}
+
+.post-tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 15px;
+}
+
+.post-tags span {
+  color: #B8B8B8;
+  font-size: 13px;
+  padding: 2px 4px;
+  border-radius: 4px;
+}
+
+.post-location-date-like {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 30px;
+  margin-bottom: 20px;
+}
+
+.post-location-date span {
+  display: flex;
+  font-size: 14px;
+  font-weight: 600;
+  color: #282828;
+}
+
+.post-location-date span {
+  margin-right: 5px;
+}
+
+.like-post-button {
+  padding: 10px 28px;
+  background-color: #ffffff;
+  color: rgb(0, 0, 0);
+  border: 1px solid #000000;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 14px;
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+
+.like-post-button img {
+  height: 18px; /* 세로 크기 설정 */
+  width: auto; /* 가로 크기 자동 조정 */
+}
+
+.separator {
+  border: 0; /* 기본 테두리 제거 */
+  border-top: 0.5px solid #DDDDDD; /* 위쪽 테두리 추가 */
+  margin: 34px 0; /* 위아래 여백 */
+}
+
+.create-comment-container {
+  margin: 100px 0px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.create-comment-button {
+  padding: 10px 110px;
+  background-color: #282828;
+  color: rgb(0, 0, 0);
+  border: 1px solid #000000;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 14px;
+  color: #ffffff;
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}

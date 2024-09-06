@@ -1,0 +1,60 @@
+.private-access {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  background-color: #f7f7f7;
+}
+
+.private-access h2 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.private-access p {
+  font-size: 16px;
+  margin-bottom: 80px;
+}
+
+.private-access form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.private-access label {
+  font-size: 16px;
+  margin-bottom: 10px;
+  width: 100%;
+  text-align: left;
+  padding-left: 10px;
+}
+
+.private-access input {
+  padding: 10px;
+  font-size: 16px;
+  margin-bottom: 50px;
+  width: 300px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.private-access button {
+  padding: 10px 120px;
+  font-size: 16px;
+  background-color: #000;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.private-access button:hover {
+  background-color: #333;
+}
+
+.error-message {
+  color: red;
+  margin-top: 10px;
+}
