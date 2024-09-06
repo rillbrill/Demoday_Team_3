@@ -15,8 +15,9 @@ const App = () => {
   // initial state 데이터 가져오기 (프론트 테스트)
   const [groups, setGroups] = useState(initialStateGroups.data);
   const [posts, setPosts] = useState(initialStatePosts.data);
-  // const [postDetails, setPostDetails] = useState(initialStatePostDetails);
-
+    // const [postDetails, setPostDetails] = useState(initialStatePostDetails);
+  const postDetails = initialStatePostDetails;
+  
   const addGroup = (newGroup) => {
     setGroups([...groups, newGroup]);
   };

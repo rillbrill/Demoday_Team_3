@@ -17,10 +17,13 @@ const CreatePostPage = ({ addPost }) => {
   const [isSuccess, setIsSuccess] = useState(null); // 성공 또는 실패를 추적하기 위한 상태
   const navigate = useNavigate();
 
+  // 빈 날짜 (추후 수정)
+  const moment = "";
+
   const handleFileChange = (e) => {
     const file = e.target.files[0];
     if (file) {
-      setImageUrl(URL.createObjectURL(file)); // 선택한 파일의 URL을 상태에 저장
+      // setImageUrl(URL.createObjectURL(file)); // 선택한 파일의 URL을 상태에 저장
     } //이미지 api 호출
   };
 
