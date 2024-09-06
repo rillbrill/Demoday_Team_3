@@ -18,4 +18,3 @@ jobs:
           firebaseServiceAccount: ${{ secrets.FIREBASE_SERVICE_ACCOUNT_JOGAKJIP_REACT }}
           channelId: live
           projectId: jogakjip-react
-        working-directory: front # firebase.json이 있는 디렉토리
