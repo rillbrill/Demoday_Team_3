@@ -1,6 +1,6 @@
 {
   "hosting": {
-    "public": "yarn install && yarn start",
+    "public": "build",
     "rewrites": [
       {
         "source": "**",
