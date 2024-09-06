@@ -197,7 +197,7 @@ export const initialStatePosts = {
 			"title": "비공개 포스트",
 			"imageUrl": "string",
 			"tags": [ "string", "string" ],
-			"location": "string",
+			"location": "ssstring",
 			"moment": "2024-02-21",
 			"isPublic": false,
 			"likeCount": 0,
