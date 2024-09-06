@@ -6,7 +6,6 @@ import PrivateGroupAccessPage from "./screens/PrivateAccess/index";
 import GroupDetail from "./screens/GroupDetail";
 import Layout from "./Layout/Layout";
 import { initialStateGroups, initialStatePostDetails, initialStatePosts } from "./mock";
-import Post from "./screens/PostDetail";
 import PrivatePostAccessPage from "./screens/PrivatePostAccess";
 import PostDetail from "./screens/PostDetail";
 import CreatePostPage from "./screens/CreatePost";
@@ -16,7 +15,7 @@ const App = () => {
   // initial state 데이터 가져오기 (프론트 테스트)
   const [groups, setGroups] = useState(initialStateGroups.data);
   const [posts, setPosts] = useState(initialStatePosts.data);
-  const [postDetails, setPostDetails] = useState(initialStatePostDetails);
+  // const [postDetails, setPostDetails] = useState(initialStatePostDetails);
 
   const addGroup = (newGroup) => {
     setGroups([...groups, newGroup]);
@@ -30,7 +29,7 @@ const App = () => {
   };
 
   const publicPosts = posts.filter((post) => post.isPublic);
-  const privatePosts = posts.filter((post) => !post.isPublic);
+  // const privatePosts = posts.filter((post) => !post.isPublic);
 
   return (
     <Router>

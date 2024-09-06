@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import { useNavigate } from "react-router-dom";
-import { v4 as uuidv4 } from "uuid"; // uuid 가져오기
+// import { v4 as uuidv4 } from "uuid"; // uuid 가져오기
 import "./style.css";
 
 const CreatePostPage = ({ addPost }) => {
@@ -10,8 +10,8 @@ const CreatePostPage = ({ addPost }) => {
   const [tags, setTags] = useState([]);
   const [tagInput, setTagInput] = useState("");
   const [location, setLocation] = useState("");
-  const [moment, setMoment] = useState("");
-  const [imageUrl, setImageUrl] = useState("");
+  // const [moment, setMoment] = useState("");
+  // const [imageUrl, setImageUrl] = useState("");
   const [isPublic, setisPublic] = useState(true);
   const [password, setPassword] = useState("");
   const [isSuccess, setIsSuccess] = useState(null); // 성공 또는 실패를 추적하기 위한 상태
