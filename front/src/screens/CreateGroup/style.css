@@ -62,17 +62,26 @@
 .toggle-container {
   display: flex;
   align-items: center;
+<<<<<<< HEAD
   gap: 5px;
   width: 120px;
+=======
+>>>>>>> e3f07cd56943c90ecda9f0110d1e4bae1cf61ca3
 }
 
 .toggle-label {
   position: relative;
+<<<<<<< HEAD
   display: flex;
   width: 60px;
   height: 34px;
   margin-left: auto;
   align-items: center;
+=======
+  display: inline-block;
+  width: 60px;
+  height: 34px;
+>>>>>>> e3f07cd56943c90ecda9f0110d1e4bae1cf61ca3
 }
 
 .toggle-label input {

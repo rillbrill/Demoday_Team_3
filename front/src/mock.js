@@ -12,6 +12,7 @@ export const initialStateGroups = {
 			"name": "첫 번째 비공개 그룹",
 			"imageUrl": "string",
 			"isPublic": false,
+
 			"likeCount": 0,
 			"badgeCount": 0,
 			"postCount": 0,
