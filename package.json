@@ -1,7 +1,7 @@
 {
     "scripts": {
-      "build:front": "cd front && npm install && npm run build",
-      "predeploy": "npm run build:front"
+      "build:front": "cd front && yarn install && yarn build",
+      "predeploy": "yarn build:front"
     }
   }
   

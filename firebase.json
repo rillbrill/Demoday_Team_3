@@ -13,7 +13,7 @@
       }
     ],
     "predeploy": [
-      "npm run build:front"
+      "yarn build:front"
     ]
   }
 }
